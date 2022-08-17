@@ -4,7 +4,7 @@ const ethers = require('ethers');
 
 
 const swap = async() => {
-const DAI = new Token(ChainId.KOVAN, '0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa', 18)
+const DAI = new Token(ChainId.KOVAN, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
 
 // note that you may want/need to handle this async code differently,
 // for example if top-level await is not an option
